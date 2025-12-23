@@ -612,12 +612,12 @@ export default async function Home() {
                 Building upon the same CPAM principles, FocusDiff extends attention refocusing and preservation mechanisms to region-specific text-guided editing, addressing prompt brittleness, spillover artifacts, and failures on small or cluttered objects. CPAM’s localized preservation strategies naturally generalize to FocusDiff’s refocused cross-attention, further enabling globally consistent editing in challenging settings such as 360° indoor panoramas and virtual reality environments.              
               </p>
               <div className="flex items-center gap-3">
-                <a
-                  href="#"
+                <p
+                  
                   className="inline-block bg-blue-900 text-white px-5 py-2 rounded-lg font-semibold transition"
                 >
                   coming soon
-                </a>
+                </p>
 
               </div>
               <div className="mt-4">
