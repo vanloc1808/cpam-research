@@ -531,8 +531,9 @@ export default async function Home() {
           <h2 className="text-3xl font-bold uppercase text-center mb-6">Application</h2>
 
           <p className="text-lg text-gray-700 leading-relaxed mb-8 text-center max-w-4xl mx-auto">
-          CPAM is designed as a general, training-free attention manipulation framework that can be instantiated across diverse image editing scenarios. 
-          Below, we present two representative systems that build directly on CPAM’s core mechanisms, demonstrating how its principles translate into interactive research prototypes and practical end-user applications.          </p>
+            CPAM is designed as a general, training-free attention manipulation framework that can be instantiated across diverse image editing scenarios. 
+            Below, we present representative systems that build directly on CPAM’s core mechanisms, demonstrating how its principles translate into interactive research prototypes and practical end-user applications as well as object removal and precise region-focused editing, illustrating its extensibility across problem settings.         
+          </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {/* iCONTRA Card */}
@@ -583,12 +584,6 @@ export default async function Home() {
       {/* Extended Work / Related Projects */}
       <section className="py-16 px-4 bg-gray-50 text-gray-900 border-t border-gray-200">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold uppercase text-center mb-6">Related Work</h2>
-
-          <p className="text-lg text-gray-700 leading-relaxed mb-8 text-center max-w-5xl mx-auto">
-            Beyond the above applications, CPAM has also been instantiated and extended in closely related research systems that focus on specific editing challenges.
-            The following works highlight how CPAM’s attention-based principles can be specialized for object removal and precise region-focused editing, illustrating its extensibility across problem settings.
-         </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {/* PANDORA Card */}
