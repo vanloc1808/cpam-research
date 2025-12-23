@@ -113,14 +113,14 @@ export default async function Home() {
           <div className="flex flex-wrap items-center justify-center gap-8 mb-12">
             <a
               href="https://arxiv.org/abs/2506.18438"
-              className="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded border border-slate-500 transition-colors"
+              className="px-6 py-3 bg-slate-400 hover:bg-slate-500 rounded border border-slate-500 transition-colors"
               rel="noopener noreferrer"
             >
               arXiv
             </a>
             <a
               href="#"
-              className="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded border border-slate-500 transition-colors cursor-not-allowed opacity-75 relative"
+              className="px-6 py-3 bg-slate-400 hover:bg-slate-500 rounded border border-slate-500 transition-colors cursor-not-allowed opacity-75 relative"
               title="Coming soon"
             >
               Code
@@ -130,7 +130,7 @@ export default async function Home() {
             </a>
             <a
               href="#"
-              className="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded border border-slate-500 transition-colors cursor-not-allowed opacity-75 relative"
+              className="px-6 py-3 bg-slate-400 hover:bg-slate-500 rounded border border-slate-500 transition-colors cursor-not-allowed opacity-75 relative"
               title="Coming soon"
             >
               Gradio Demo
